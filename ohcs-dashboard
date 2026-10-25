@@ -1,1 +1,7 @@
-
+# Suggested structure
+src/
+  components/
+    Dashboard.js
+  App.js
+  index.js
+  styles.css
