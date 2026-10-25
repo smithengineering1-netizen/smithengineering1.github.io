@@ -5,3 +5,18 @@ src/
   App.js
   index.js
   styles.css
+npx create-react-app ohcs-dashboard
+cd ohcs-dashboard
+
+npm install --save gh-pages
+
+git init
+git remote add origin https://github.com/<your-github-username>/ohcs-dashboard.git
+git add .
+git commit -m "Initial OHCS dashboard"
+git push -u origin main
+
+npm run deploy
+
+npm run build
+npm run deploy
